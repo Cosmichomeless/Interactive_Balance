@@ -1,0 +1,1 @@
+// Este archivo contiene la lógica de JavaScript para la aplicación. Aquí se implementan las interacciones y funcionalidades que se aplican a los elementos HTML.
