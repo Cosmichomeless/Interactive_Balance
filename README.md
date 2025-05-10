@@ -1,38 +1,82 @@
-# Proyecto Web
 
-Este proyecto es una aplicación web simple que demuestra la separación de la lógica de JavaScript, HTML y CSS. A continuación se detallan los archivos y su propósito.
+# 📊 Balance Contable Interactivo
 
-## Estructura del Proyecto
+Este proyecto es una aplicación web que permite **gestionar y visualizar balances contables** de forma dinámica e intuitiva. Está pensada para ayudar a usuarios y administradores a llevar un control claro de activos, pasivos y patrimonio mediante una interfaz interactiva.
+
+![Interactive Balance Sheet Banner](thumbnail.png)
+
+## 📄 Descripción
+
+La herramienta ofrece una visión estructurada del estado financiero de una empresa o proyecto, desglosando **activos y pasivos** en tiempo real. Incluye formularios para registrar elementos contables y gráficos que representan el equilibrio financiero.
+
+## 🧩 Estructura del Proyecto
 
 ```
-proyecto-web
-├── src
-│   ├── assets
-│   │   └── css
-│   │       └── styles.css      # Contiene los estilos CSS para la aplicación.
-│   ├── js
-│   │   └── main.js             # Contiene la lógica de JavaScript para la aplicación.
-│   └── index.html              # Estructura principal del documento HTML.
-├── .gitignore                   # Archivos y directorios que deben ser ignorados por Git.
-└── README.md                    # Documentación del proyecto.
+interactive-balance
+├── index.html           # Estructura HTML de la app
+├── css/
+│   └── styles.css       # Estilos personalizados
+├── js/
+│   ├── main.js          # Lógica general e interacción
+│   ├── data.js          # Datos de activos y pasivos
+│   └── chart.js         # Configuración de gráficos
+├── assets/
+│   └── banner.png       # Imagen principal del proyecto
+└── README.md            # Este archivo
 ```
 
-## Instrucciones de Configuración
+## 🚀 Características
 
-1. Clona el repositorio en tu máquina local.
-2. Navega al directorio del proyecto.
-3. Abre el archivo `src/index.html` en tu navegador para ver la aplicación en acción.
+- **Formulario dinámico** para ingresar activos y pasivos.
+- **Gráfico de barras** que compara activos vs. pasivos.
+- **Resumen contable** automático con balance actualizado.
+- **Diseño responsive**, ideal para tablet y escritorio.
+- **Validación de datos** e interacción amigable.
 
-## Uso
+## 🔧 Tecnologías Utilizadas
 
-- Modifica el archivo `src/assets/css/styles.css` para cambiar la apariencia visual de la aplicación.
-- Añade o modifica la lógica en `src/js/main.js` para implementar nuevas funcionalidades.
-- Actualiza `src/index.html` para cambiar el contenido que se muestra en la página.
+- **HTML5**: Estructura semántica del proyecto.
+- **CSS3**: Maquetación y diseño visual.
+- **JavaScript (ES6)**: Lógica de aplicación y gestión de datos.
+- **Chart.js**: Visualización de gráficos contables.
 
-## Contribuciones
+## 🌟 Cómo Usar
 
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o envía un pull request.
+1. Clona este repositorio:
 
-## Licencia
+```bash
+git clone https://github.com/TU_USUARIO/interactive-balance.git
+cd interactive-balance
+```
 
-Este proyecto está bajo la Licencia MIT.
+2. Abre el archivo `index.html` en tu navegador.
+
+3. Añade tus activos y pasivos en los formularios correspondientes.
+
+4. Visualiza el resultado contable en el gráfico generado automáticamente.
+
+## 🎯 Futuras Mejoras
+
+- Exportación de balances a PDF o Excel.
+- Historial contable y registro por fechas.
+- Autenticación de usuarios y gestión de sesiones.
+- Enlace con plataformas contables externas (API).
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas!
+
+Si deseas colaborar:
+
+- Abre un *issue* explicando tu mejora.
+- Haz un *fork* del repositorio y crea tu rama:
+
+```bash
+git checkout -b mejora/tu-feature
+```
+
+- Realiza tus cambios y envía un *pull request*.
+
+---
+
+© 2025 Interactive Balance Team. Proyecto académico de gestión financiera visual.
